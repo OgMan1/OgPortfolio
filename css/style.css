@@ -1,0 +1,1150 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav .navbar-brand,
+nav .navbar-nav {
+  margin: 0.15em 2.5em;
+}
+
+.navbar-brand .logoPic {
+  height: 3em;
+}
+
+nav .navbar-nav,
+.landingText {
+  font-size: 1.5em;
+}
+
+nav ul li a {
+  color: yellow;
+  font-weight: bold;
+  margin-right: 2em;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  color: rgb(255, 255, 255);
+}
+
+nav ul li .last {
+  margin-right: 0;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5em 1em;
+}
+
+.landingPage {
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+/* .laptop {
+  position: absolute;
+  top: 31%;
+  left: 7%;
+  z-index: 9;
+} */
+
+.laptop {
+  position: absolute;
+  top: 35%;
+  left: 17%;
+  z-index: 9;
+}
+
+.landingText {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: rgb(109, 27, 216);
+  color: white;
+}
+
+.dot,
+.landingText p {
+  position: relative;
+}
+
+.dot:before {
+  position: absolute;
+  content: "";
+  height: 0.2em;
+  width: 0.2em;
+  bottom: 0.1em;
+  right: -8px;
+  z-index: 2;
+  background: orangered;
+}
+
+.workRow {
+  margin: 6em 0 2.5em 0;
+}
+
+.workRowTwo {
+  position: relative;
+}
+
+.workRow h2,
+.aboutUs h2 {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+.aboutUs h2 {
+  margin: 0 0 3em 0;
+}
+
+.cardRow {
+  margin: 3em 0 2em 0;
+  padding: 1.5em;
+}
+
+.cardRow h4 {
+  margin: 2em 0;
+  font-weight: bold;
+  font-size: 1.9em;
+}
+
+.cardRow ul {
+  font-weight: 600;
+  font-size: 1.15em;
+  text-decoration: none;
+  list-style: none;
+  border-left: 0.2em solid rgba(109, 27, 216, 0.75);
+  padding: 0 2.5em;
+  line-height: 1.5em;
+}
+
+.cardRow p {
+  font-size: 1.35em;
+  margin-bottom: 1.2em;
+  font-weight: 700;
+  position: relative;
+}
+
+.project {
+  position: relative;
+  font-size: 1.3em;
+}
+
+.cardRow p:before,
+.project:before {
+  position: absolute;
+  content: "";
+  height: 0.2em;
+  width: 100%;
+  bottom: 0.1em;
+  z-index: -1;
+  background: yellow;
+}
+
+.cardRow ul li {
+  margin: 0.7em 0;
+}
+
+.imgSecondRow {
+  -webkit-box-shadow: 1px 0px 10px -1px rgba(109, 27, 216, 0.75);
+  -moz-box-shadow: 1px 0px 10px -1px rgba(109, 27, 216, 0.75);
+  box-shadow: 1px 0px 10px -1px rgba(109, 27, 216, 0.75);
+}
+
+.imgSecondRow:hover {
+  transform: scale(1.01);
+  transition: 0.3s linear;
+  -webkit-box-shadow: 6px 6px 7px -1px rgba(109, 27, 216, 0.75);
+  -moz-box-shadow: 6px 6px 7px -1px rgba(109, 27, 216, 0.75);
+  box-shadow: 6px 6px 7px -1px rgba(109, 27, 216, 0.75);
+}
+
+.landingText h2 {
+  font-size: 2.2em;
+  font-weight: 700;
+  padding-bottom: 1.2em;
+  margin-top: 1em;
+}
+
+.landingText .btnContact,
+.btnForm {
+  padding: 0.7em 2.7em;
+  font-size: 0.95em;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  border-radius: 0;
+  background-color: yellow;
+  color: rgb(62, 18, 119);
+  margin-top: 0.5em;
+}
+
+.landingText .btnContact:hover,
+.btnForm:hover {
+  transition: 0.35s ease-in;
+  color: rgb(255, 255, 255);
+  background-color: orangered;
+}
+
+.btnForm {
+  background-color: rgba(109, 27, 216, 0.95);
+  color: white;
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+.btnForm:hover {
+  background-color: rgb(62, 18, 119);
+  color: yellow;
+}
+
+.aboutUs {
+  text-align: center;
+  line-height: 1.8em;
+  margin: 1em 0;
+}
+
+.aboutDivPara,
+.iRow {
+  font-size: 1.25em;
+  margin-top: 1.5em;
+  line-height: 1.6em;
+}
+
+.aboutDivPara {
+  text-align: left;
+  font-weight: bold;
+}
+
+.firstPara {
+  margin-top: 2em;
+}
+
+.iRow i {
+  font-size: 2.5em;
+}
+
+.iRow p {
+  border-bottom: 0.2em solid rgb(109, 27, 216);
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.1em;
+  position: relative;
+}
+
+.aboutDivBorder {
+  border-left: 0.2em solid lightgray;
+  border-right: 0.2em solid lightgray;
+  padding: 2em 3em;
+  margin: 0 -1.5em;
+  height: 100%;
+}
+
+.aboutTech {
+  padding: 2em;
+}
+
+.aboutBack {
+  position: relative;
+}
+
+.avatarPic:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  background: rgba(109, 27, 216, 0.5);
+  height: 100%;
+  z-index: -1;
+}
+
+#ogSpan {
+  color: rgb(109, 27, 216);
+  text-decoration: none;
+}
+
+.form {
+  padding: 4em 0;
+  position: relative;
+}
+
+.form:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: -webkit-linear-gradient(
+    280deg,
+    #fff 50%,
+    rgba(109, 27, 216, 0.5) 24.9%
+  );
+  height: 55%;
+  z-index: -2;
+}
+
+.form h3,
+.form h5,
+.form p {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.form p {
+  margin-bottom: 2.5em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.form-group label {
+  font-size: 1.2em;
+}
+
+.btnBottom {
+  padding: 0.5em 1.25em;
+  border-radius: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 40%;
+}
+
+.btn-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#textarea {
+  width: 100%;
+  display: block;
+}
+
+.footer-copyright img {
+  height: 1.5em;
+}
+
+.page-footer {
+  padding: 0.3em 1.2em;
+  margin: 0 2em;
+}
+
+.formName {
+  width: 48%;
+}
+
+.formEmail {
+  float: right;
+}
+
+.form-control,
+#textarea {
+  color: black;
+  border: 1px solid rgb(185, 135, 250);
+  -webkit-box-shadow: 1px 1px 5px -1px rgba(109, 27, 216, 0.75);
+  -moz-box-shadow: 1px 1px 5px -1px rgba(109, 27, 216, 0.75);
+  box-shadow: 1px 1px 5px -1px rgba(109, 27, 216, 0.75);
+}
+
+.iRow img {
+  margin-bottom: 0.5em;
+  height: 50px;
+}
+
+.library {
+  margin-top: 3em;
+}
+
+.flicker-5 {
+  -webkit-animation: flicker-5 17s cubic-bezier(0.47, 0, 0.745, 0.715) infinite
+    both;
+  animation: flicker-5 17s cubic-bezier(0.47, 0, 0.745, 0.715) infinite both;
+}
+
+@-webkit-keyframes flicker-5 {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  -0.02% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 1;
+  }
+  1% {
+    opacity: 1;
+  }
+  1.02% {
+    opacity: 1;
+  }
+  8.98% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 0;
+  }
+  9.8% {
+    opacity: 0;
+  }
+  9.82% {
+    opacity: 1;
+  }
+  9.48% {
+    opacity: 1;
+  }
+  9.5% {
+    opacity: 1;
+  }
+  9.6% {
+    opacity: 1;
+  }
+  9.62% {
+    opacity: 1;
+  }
+  14.98% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0.5;
+  }
+  15.8% {
+    opacity: 0.5;
+  }
+  15.82% {
+    opacity: 1;
+  }
+  15.18% {
+    opacity: 1;
+  }
+  15.2% {
+    opacity: 0.7;
+  }
+  16% {
+    opacity: 0.7;
+  }
+  16.02% {
+    opacity: 1;
+  }
+  15.48% {
+    opacity: 1;
+  }
+  15.5% {
+    opacity: 0.5;
+  }
+  16.2% {
+    opacity: 0.5;
+  }
+  16.22% {
+    opacity: 1;
+  }
+  16.98% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  17.8% {
+    opacity: 1;
+  }
+  17.82% {
+    opacity: 1;
+  }
+  20.48% {
+    opacity: 1;
+  }
+  20.5% {
+    opacity: 0.9;
+  }
+  21.3% {
+    opacity: 0.9;
+  }
+  21.32% {
+    opacity: 1;
+  }
+  20.98% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  22% {
+    opacity: 1;
+  }
+  22.02% {
+    opacity: 1;
+  }
+  39.98% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 1;
+  }
+  41.02% {
+    opacity: 1;
+  }
+  40.48% {
+    opacity: 1;
+  }
+  40.5% {
+    opacity: 0.6;
+  }
+  41.4% {
+    opacity: 0.6;
+  }
+  41.42% {
+    opacity: 1;
+  }
+  41.98% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 1;
+  }
+  42.8% {
+    opacity: 1;
+  }
+  42.82% {
+    opacity: 1;
+  }
+  59.98% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  61% {
+    opacity: 1;
+  }
+  61.02% {
+    opacity: 1;
+  }
+  60.18% {
+    opacity: 1;
+  }
+  60.2% {
+    opacity: 0.2;
+  }
+  61% {
+    opacity: 0.2;
+  }
+  61.02% {
+    opacity: 1;
+  }
+  60.78% {
+    opacity: 1;
+  }
+  60.8% {
+    opacity: 0.4;
+  }
+  61.6% {
+    opacity: 0.4;
+  }
+  61.62% {
+    opacity: 1;
+  }
+  61.38% {
+    opacity: 1;
+  }
+  61.4% {
+    opacity: 0;
+  }
+  62.2% {
+    opacity: 0;
+  }
+  62.22% {
+    opacity: 1;
+  }
+  61.78% {
+    opacity: 1;
+  }
+  61.8% {
+    opacity: 1;
+  }
+  62.8% {
+    opacity: 1;
+  }
+  62.82% {
+    opacity: 1;
+  }
+  75.98% {
+    opacity: 1;
+  }
+  76% {
+    opacity: 1;
+  }
+  77% {
+    opacity: 1;
+  }
+  77.02% {
+    opacity: 1;
+  }
+  77.98% {
+    opacity: 1;
+  }
+  78% {
+    opacity: 0.7;
+  }
+  78.8% {
+    opacity: 0.7;
+  }
+  78.82% {
+    opacity: 1;
+  }
+  78.98% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  80.02% {
+    opacity: 1;
+  }
+  99.98% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+  101% {
+    opacity: 1;
+  }
+  101.02% {
+    opacity: 1;
+  }
+}
+@keyframes flicker-5 {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  -0.02% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 1;
+  }
+  1% {
+    opacity: 1;
+  }
+  1.02% {
+    opacity: 1;
+  }
+  8.98% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 0;
+  }
+  9.8% {
+    opacity: 0;
+  }
+  9.82% {
+    opacity: 1;
+  }
+  9.48% {
+    opacity: 1;
+  }
+  9.5% {
+    opacity: 1;
+  }
+  9.6% {
+    opacity: 1;
+  }
+  9.62% {
+    opacity: 1;
+  }
+  14.98% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0.5;
+  }
+  15.8% {
+    opacity: 0.5;
+  }
+  15.82% {
+    opacity: 1;
+  }
+  15.18% {
+    opacity: 1;
+  }
+  15.2% {
+    opacity: 0.7;
+  }
+  16% {
+    opacity: 0.7;
+  }
+  16.02% {
+    opacity: 1;
+  }
+  15.48% {
+    opacity: 1;
+  }
+  15.5% {
+    opacity: 0.5;
+  }
+  16.2% {
+    opacity: 0.5;
+  }
+  16.22% {
+    opacity: 1;
+  }
+  16.98% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  17.8% {
+    opacity: 1;
+  }
+  17.82% {
+    opacity: 1;
+  }
+  20.48% {
+    opacity: 1;
+  }
+  20.5% {
+    opacity: 0.9;
+  }
+  21.3% {
+    opacity: 0.9;
+  }
+  21.32% {
+    opacity: 1;
+  }
+  20.98% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  22% {
+    opacity: 1;
+  }
+  22.02% {
+    opacity: 1;
+  }
+  39.98% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 1;
+  }
+  41.02% {
+    opacity: 1;
+  }
+  40.48% {
+    opacity: 1;
+  }
+  40.5% {
+    opacity: 0.6;
+  }
+  41.4% {
+    opacity: 0.6;
+  }
+  41.42% {
+    opacity: 1;
+  }
+  41.98% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 1;
+  }
+  42.8% {
+    opacity: 1;
+  }
+  42.82% {
+    opacity: 1;
+  }
+  59.98% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  61% {
+    opacity: 1;
+  }
+  61.02% {
+    opacity: 1;
+  }
+  60.18% {
+    opacity: 1;
+  }
+  60.2% {
+    opacity: 0.2;
+  }
+  61% {
+    opacity: 0.2;
+  }
+  61.02% {
+    opacity: 1;
+  }
+  60.78% {
+    opacity: 1;
+  }
+  60.8% {
+    opacity: 0.4;
+  }
+  61.6% {
+    opacity: 0.4;
+  }
+  61.62% {
+    opacity: 1;
+  }
+  61.38% {
+    opacity: 1;
+  }
+  61.4% {
+    opacity: 0;
+  }
+  62.2% {
+    opacity: 0;
+  }
+  62.22% {
+    opacity: 1;
+  }
+  61.78% {
+    opacity: 1;
+  }
+  61.8% {
+    opacity: 1;
+  }
+  62.8% {
+    opacity: 1;
+  }
+  62.82% {
+    opacity: 1;
+  }
+  75.98% {
+    opacity: 1;
+  }
+  76% {
+    opacity: 1;
+  }
+  77% {
+    opacity: 1;
+  }
+  77.02% {
+    opacity: 1;
+  }
+  77.98% {
+    opacity: 1;
+  }
+  78% {
+    opacity: 0.7;
+  }
+  78.8% {
+    opacity: 0.7;
+  }
+  78.82% {
+    opacity: 1;
+  }
+  78.98% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  80.02% {
+    opacity: 1;
+  }
+  99.98% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+  101% {
+    opacity: 1;
+  }
+  101.02% {
+    opacity: 1;
+  }
+}
+
+/* Media  */
+
+@media only screen and (max-width: 1300px) {
+  /* .laptop {
+    left: 4%;
+  } */
+}
+
+@media only screen and (max-width: 1100px) {
+  /* .laptop {
+    top: 40%;
+    left: -9%;
+    max-width: 60%;
+  } */
+
+  .laptop {
+    top: 40%;
+    left: 9%;
+  }
+
+  .cardRow ul {
+    padding-left: 2em;
+    padding-right: 0;
+  }
+
+  .cardRow p:before {
+    width: 100%;
+  }
+
+  .btnForm {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  /* .laptop {
+    left: -17%;
+  } */
+
+  .laptop {
+    left: 2%;
+  }
+
+  .aboutDivBorder {
+    padding: 2em 1em 1em 1em;
+  }
+
+  nav .navbar-brand,
+  nav .navbar-nav {
+    margin: 0.15em 0.5em;
+  }
+
+  nav ul li a {
+    margin-right: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav .navbar-brand,
+  button.navbar-toggler.navText {
+    margin: 0.15em 0;
+    padding: 0.15em;
+  }
+
+  button.navbar-toggler.navText {
+    margin: 0.15em 0.5em;
+  }
+
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+
+  .nav-item:first-of-type {
+    margin-top: 1em;
+  }
+
+  nav ul li a {
+    background-color: rgba(109, 27, 216, 0.99);
+    position: relative;
+    margin-right: 0;
+    padding: 0.1em;
+    margin: 0.5em 0;
+  }
+
+  .navbar-brand .logoPic {
+    height: 2.5em;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.3em 1em;
+  }
+
+  /* .laptop {
+    top: 88%;
+    left: 12%;
+    max-width: 75%;
+  } */
+
+  .laptop {
+    top: 88%;
+    left: 24%;
+    max-width: 50%;
+  }
+
+  .landingText h2 {
+    font-size: 1.8em;
+  }
+
+  .landingText p {
+    font-size: 0.9em;
+  }
+
+  .landingText h3 {
+    font-size: 1.5rem;
+  }
+
+  .landingText p {
+    line-height: 1.3em;
+  }
+
+  .landingText .btnContact {
+    padding: 0.8em 2em;
+    border-radius: 0;
+    font-size: 0.8em;
+  }
+
+  .workRow {
+    margin: 6em 0 2.5em 0;
+  }
+
+  .workRow h2 {
+    margin: 1.5em 0 2em 0;
+  }
+
+  .workRow h2,
+  .aboutUs h2 {
+    font-size: 2.2em;
+  }
+
+  .aboutUs h2 {
+    margin: -0.5em 0 2.5em 0;
+  }
+
+  .cardRow {
+    padding: 1em 2em;
+    margin: 0 0 3em 0;
+  }
+
+  .cardRowLast {
+    margin: 0 0 2em 0;
+  }
+
+  .cardRow h4 {
+    font-size: 1.7em;
+    margin: 1.7em 0;
+  }
+
+  .cardRow ul {
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .cardRow ul li {
+    margin: 1.25em 0;
+  }
+
+  .cardRow p {
+    font-size: 1.25em;
+  }
+
+  .cardRow p:before {
+    width: 100%;
+  }
+
+  .aboutDiv {
+    padding: 0;
+    margin: 3em 0;
+  }
+
+  .aboutDivBorder {
+    border-top: 0.2em solid lightgray;
+    border-bottom: 0.2em solid lightgray;
+    border-left: none;
+    border-right: none;
+    padding: 2em 1em 0 1em;
+    margin-bottom: 0;
+  }
+
+  .aboutTech {
+    padding-top: 3em;
+  }
+
+  .page-footer {
+    padding: 0.1em 0.2em;
+    margin: 0 0.2em;
+  }
+
+  .aboutBack:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: -webkit-linear-gradient(
+      280deg,
+      #fff 50%,
+      rgba(109, 27, 216, 0.5) 24.9%
+    );
+    height: 45%;
+    z-index: -2;
+  }
+
+  .fa-bars {
+    color: yellow;
+  }
+
+  .formName {
+    width: 100%;
+  }
+
+  .form-group {
+    margin-bottom: 0;
+  }
+
+  .form {
+    padding: 3em 0;
+  }
+
+  .form p {
+    margin-bottom: 2em;
+  }
+
+  label {
+    margin-top: 0.4em;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  /* .laptop {
+    max-width: 70%;
+    left: 14%;
+  } */
+
+  .landingText h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 1em;
+    margin-top: 1.2em;
+  }
+
+  .workRow h2 {
+    margin: 1em 0 2em 0;
+  }
+
+  .workRow h2,
+  .aboutUs h2 {
+    font-size: 2em;
+  }
+
+  .project {
+    font-size: 1em;
+  }
+}
