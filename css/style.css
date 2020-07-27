@@ -214,7 +214,7 @@ nav ul li .last {
 .iRow {
   font-size: 1.25em;
   margin-top: 1.5em;
-  line-height: 1.6em;
+  line-height: 1.55em;
 }
 
 .aboutDivPara {
@@ -1119,6 +1119,13 @@ nav ul li .last {
 
   label {
     margin-top: 0.4em;
+  }
+}
+
+@media screen and (min-device-width: 580px) and (max-device-width: 610px) {
+  .laptop {
+    top: 78%;
+    left: 25%;
   }
 }
 
