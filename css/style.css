@@ -167,10 +167,10 @@ nav ul li .last {
 }
 
 .landingText h2 {
-  font-size: 2.2em;
+  font-size: 3.2em;
   font-weight: 700;
   padding-bottom: 1.2em;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .landingText .btnContact,
@@ -888,16 +888,18 @@ nav ul li .last {
 
 @media only screen and (min-width: 1700px) {
    .laptop {
-  top: 40%;
-  left: 22%;
+  top: 41%;
+  left: 20%;
   } 
 }
 
 @media screen and (min-device-width: 1301px) and (max-device-width: 1699px) {
   .laptop {
     top: 39%;
-  left: 18%;
+  left: 16%;
   }
+
+
 }
 
 @media only screen and (max-width: 1300px) {
@@ -918,16 +920,22 @@ nav ul li .last {
   .btnForm {
     width: 100%;
   }
+
+ 
 }
 
 @media only screen and (max-width: 900px) {
  .laptop {
-  max-width: 37%;
+  max-width: 35%;
   left: 2%;
   } 
 
   .aboutDivBorder {
     padding: 2em 1em 1em 1em;
+  }
+
+  .landingText h2 {
+    font-size: 2.2em;
   }
 
   nav .navbar-brand,
