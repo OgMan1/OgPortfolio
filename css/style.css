@@ -361,7 +361,7 @@ nav ul li .last {
   margin-top: 3em;
 }
 
-.flicker-5 {
+/* .flicker-5 {
   -webkit-animation: flicker-5 17s cubic-bezier(0.47, 0, 0.745, 0.715) infinite
     both;
   animation: flicker-5 17s cubic-bezier(0.47, 0, 0.745, 0.715) infinite both;
@@ -882,23 +882,25 @@ nav ul li .last {
   101.02% {
     opacity: 1;
   }
-}
+} */
 
 /* Media  */
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1700px) {
    .laptop {
-     top: 35%;
+  top: 40%;
   left: 22%;
   } 
 }
 
-@media only screen and (max-width: 1200px) {
-  /* .laptop {
-    top: 40%;
-    left: -9%;
-    max-width: 60%;
-  } */
+@media screen and (min-device-width: 1301px) and (max-device-width: 1699px) {
+  .laptop {
+    top: 39%;
+  left: 18%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
 
   .laptop {
     top: 40%;
