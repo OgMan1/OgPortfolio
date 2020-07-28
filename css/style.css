@@ -901,7 +901,6 @@ nav ul li .last {
 }
 
 @media only screen and (max-width: 1300px) {
-
   .laptop {
     top: 40%;
     left: 9%;
@@ -922,13 +921,10 @@ nav ul li .last {
 }
 
 @media only screen and (max-width: 900px) {
-  /* .laptop {
-    left: -17%;
-  } */
-
-  .laptop {
-    left: 2%;
-  }
+ .laptop {
+  max-width: 37%;
+  left: 2%;
+  } 
 
   .aboutDivBorder {
     padding: 2em 1em 1em 1em;
@@ -978,12 +974,6 @@ nav ul li .last {
   .navbar-nav .nav-link {
     padding: 0.3em 1em;
   }
-
-  /* .laptop {
-    top: 88%;
-    left: 12%;
-    max-width: 75%;
-  } */
 
   .laptop {
     top: 88%;
