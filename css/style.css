@@ -572,7 +572,7 @@ nav ul li .last {
     width: 100%;
     background-image: -webkit-linear-gradient(
       280deg,
-      #fff 55%,
+      #fff 50%,
       rgba(109, 27, 216, 0.5) 24.9%
     );
     height: 45%;
