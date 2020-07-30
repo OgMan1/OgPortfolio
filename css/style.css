@@ -47,17 +47,10 @@ nav ul li .last {
   display: flex;
 }
 
-/* .laptop {
-  position: absolute;
-  top: 31%;
-  left: 7%;
-  z-index: 9;
-} */
-
-.laptop {
+.cartoonProfPic {
   position: absolute;
   top: 35%;
-  left: 17%;
+  left: 15%;
   z-index: 9;
 }
 
@@ -94,13 +87,13 @@ nav ul li .last {
   position: relative;
 }
 
-.workRow h2,
-.aboutUs h2 {
+.workRow h3,
+.aboutUs h3 {
   font-size: 2.5em;
   font-weight: 800;
 }
 
-.aboutUs h2 {
+.aboutUs h3 {
   margin: 0 0 3em 0;
 }
 
@@ -110,7 +103,7 @@ nav ul li .last {
 }
 
 .cardRow h4 {
-  margin: 2em 0;
+  margin: 1.5em 0;
   font-weight: bold;
   font-size: 1.9em;
 }
@@ -167,7 +160,7 @@ nav ul li .last {
 }
 
 .landingText h2 {
-  font-size: 3.2em;
+  font-size: 3.1em;
   font-weight: 700;
   padding-bottom: 1.2em;
   margin-top: 2em;
@@ -200,8 +193,8 @@ nav ul li .last {
 }
 
 .btnForm:hover {
-  background-color: rgb(62, 18, 119);
-  color: yellow;
+  background-color: yellow;
+  color: rgb(62, 18, 119);
 }
 
 .aboutUs {
@@ -248,6 +241,10 @@ nav ul li .last {
 
 .aboutTech {
   padding: 2em;
+}
+
+.aboutDiv h4 {
+  font-size: 2em;
 }
 
 .aboutBack {
@@ -357,554 +354,29 @@ nav ul li .last {
   height: 50px;
 }
 
-.library {
+.aboutTech .library {
   margin-top: 3em;
 }
 
-/* .flicker-5 {
-  -webkit-animation: flicker-5 17s cubic-bezier(0.47, 0, 0.745, 0.715) infinite
-    both;
-  animation: flicker-5 17s cubic-bezier(0.47, 0, 0.745, 0.715) infinite both;
-}
-
-@-webkit-keyframes flicker-5 {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  -0.02% {
-    opacity: 1;
-  }
-  0% {
-    opacity: 1;
-  }
-  1% {
-    opacity: 1;
-  }
-  1.02% {
-    opacity: 1;
-  }
-  8.98% {
-    opacity: 1;
-  }
-  9% {
-    opacity: 0;
-  }
-  9.8% {
-    opacity: 0;
-  }
-  9.82% {
-    opacity: 1;
-  }
-  9.48% {
-    opacity: 1;
-  }
-  9.5% {
-    opacity: 1;
-  }
-  9.6% {
-    opacity: 1;
-  }
-  9.62% {
-    opacity: 1;
-  }
-  14.98% {
-    opacity: 1;
-  }
-  15% {
-    opacity: 0.5;
-  }
-  15.8% {
-    opacity: 0.5;
-  }
-  15.82% {
-    opacity: 1;
-  }
-  15.18% {
-    opacity: 1;
-  }
-  15.2% {
-    opacity: 0.7;
-  }
-  16% {
-    opacity: 0.7;
-  }
-  16.02% {
-    opacity: 1;
-  }
-  15.48% {
-    opacity: 1;
-  }
-  15.5% {
-    opacity: 0.5;
-  }
-  16.2% {
-    opacity: 0.5;
-  }
-  16.22% {
-    opacity: 1;
-  }
-  16.98% {
-    opacity: 1;
-  }
-  17% {
-    opacity: 1;
-  }
-  17.8% {
-    opacity: 1;
-  }
-  17.82% {
-    opacity: 1;
-  }
-  20.48% {
-    opacity: 1;
-  }
-  20.5% {
-    opacity: 0.9;
-  }
-  21.3% {
-    opacity: 0.9;
-  }
-  21.32% {
-    opacity: 1;
-  }
-  20.98% {
-    opacity: 1;
-  }
-  21% {
-    opacity: 1;
-  }
-  22% {
-    opacity: 1;
-  }
-  22.02% {
-    opacity: 1;
-  }
-  39.98% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 1;
-  }
-  41% {
-    opacity: 1;
-  }
-  41.02% {
-    opacity: 1;
-  }
-  40.48% {
-    opacity: 1;
-  }
-  40.5% {
-    opacity: 0.6;
-  }
-  41.4% {
-    opacity: 0.6;
-  }
-  41.42% {
-    opacity: 1;
-  }
-  41.98% {
-    opacity: 1;
-  }
-  42% {
-    opacity: 1;
-  }
-  42.8% {
-    opacity: 1;
-  }
-  42.82% {
-    opacity: 1;
-  }
-  59.98% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  61% {
-    opacity: 1;
-  }
-  61.02% {
-    opacity: 1;
-  }
-  60.18% {
-    opacity: 1;
-  }
-  60.2% {
-    opacity: 0.2;
-  }
-  61% {
-    opacity: 0.2;
-  }
-  61.02% {
-    opacity: 1;
-  }
-  60.78% {
-    opacity: 1;
-  }
-  60.8% {
-    opacity: 0.4;
-  }
-  61.6% {
-    opacity: 0.4;
-  }
-  61.62% {
-    opacity: 1;
-  }
-  61.38% {
-    opacity: 1;
-  }
-  61.4% {
-    opacity: 0;
-  }
-  62.2% {
-    opacity: 0;
-  }
-  62.22% {
-    opacity: 1;
-  }
-  61.78% {
-    opacity: 1;
-  }
-  61.8% {
-    opacity: 1;
-  }
-  62.8% {
-    opacity: 1;
-  }
-  62.82% {
-    opacity: 1;
-  }
-  75.98% {
-    opacity: 1;
-  }
-  76% {
-    opacity: 1;
-  }
-  77% {
-    opacity: 1;
-  }
-  77.02% {
-    opacity: 1;
-  }
-  77.98% {
-    opacity: 1;
-  }
-  78% {
-    opacity: 0.7;
-  }
-  78.8% {
-    opacity: 0.7;
-  }
-  78.82% {
-    opacity: 1;
-  }
-  78.98% {
-    opacity: 1;
-  }
-  79% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 1;
-  }
-  80.02% {
-    opacity: 1;
-  }
-  99.98% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-  101% {
-    opacity: 1;
-  }
-  101.02% {
-    opacity: 1;
-  }
-}
-@keyframes flicker-5 {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  -0.02% {
-    opacity: 1;
-  }
-  0% {
-    opacity: 1;
-  }
-  1% {
-    opacity: 1;
-  }
-  1.02% {
-    opacity: 1;
-  }
-  8.98% {
-    opacity: 1;
-  }
-  9% {
-    opacity: 0;
-  }
-  9.8% {
-    opacity: 0;
-  }
-  9.82% {
-    opacity: 1;
-  }
-  9.48% {
-    opacity: 1;
-  }
-  9.5% {
-    opacity: 1;
-  }
-  9.6% {
-    opacity: 1;
-  }
-  9.62% {
-    opacity: 1;
-  }
-  14.98% {
-    opacity: 1;
-  }
-  15% {
-    opacity: 0.5;
-  }
-  15.8% {
-    opacity: 0.5;
-  }
-  15.82% {
-    opacity: 1;
-  }
-  15.18% {
-    opacity: 1;
-  }
-  15.2% {
-    opacity: 0.7;
-  }
-  16% {
-    opacity: 0.7;
-  }
-  16.02% {
-    opacity: 1;
-  }
-  15.48% {
-    opacity: 1;
-  }
-  15.5% {
-    opacity: 0.5;
-  }
-  16.2% {
-    opacity: 0.5;
-  }
-  16.22% {
-    opacity: 1;
-  }
-  16.98% {
-    opacity: 1;
-  }
-  17% {
-    opacity: 1;
-  }
-  17.8% {
-    opacity: 1;
-  }
-  17.82% {
-    opacity: 1;
-  }
-  20.48% {
-    opacity: 1;
-  }
-  20.5% {
-    opacity: 0.9;
-  }
-  21.3% {
-    opacity: 0.9;
-  }
-  21.32% {
-    opacity: 1;
-  }
-  20.98% {
-    opacity: 1;
-  }
-  21% {
-    opacity: 1;
-  }
-  22% {
-    opacity: 1;
-  }
-  22.02% {
-    opacity: 1;
-  }
-  39.98% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 1;
-  }
-  41% {
-    opacity: 1;
-  }
-  41.02% {
-    opacity: 1;
-  }
-  40.48% {
-    opacity: 1;
-  }
-  40.5% {
-    opacity: 0.6;
-  }
-  41.4% {
-    opacity: 0.6;
-  }
-  41.42% {
-    opacity: 1;
-  }
-  41.98% {
-    opacity: 1;
-  }
-  42% {
-    opacity: 1;
-  }
-  42.8% {
-    opacity: 1;
-  }
-  42.82% {
-    opacity: 1;
-  }
-  59.98% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  61% {
-    opacity: 1;
-  }
-  61.02% {
-    opacity: 1;
-  }
-  60.18% {
-    opacity: 1;
-  }
-  60.2% {
-    opacity: 0.2;
-  }
-  61% {
-    opacity: 0.2;
-  }
-  61.02% {
-    opacity: 1;
-  }
-  60.78% {
-    opacity: 1;
-  }
-  60.8% {
-    opacity: 0.4;
-  }
-  61.6% {
-    opacity: 0.4;
-  }
-  61.62% {
-    opacity: 1;
-  }
-  61.38% {
-    opacity: 1;
-  }
-  61.4% {
-    opacity: 0;
-  }
-  62.2% {
-    opacity: 0;
-  }
-  62.22% {
-    opacity: 1;
-  }
-  61.78% {
-    opacity: 1;
-  }
-  61.8% {
-    opacity: 1;
-  }
-  62.8% {
-    opacity: 1;
-  }
-  62.82% {
-    opacity: 1;
-  }
-  75.98% {
-    opacity: 1;
-  }
-  76% {
-    opacity: 1;
-  }
-  77% {
-    opacity: 1;
-  }
-  77.02% {
-    opacity: 1;
-  }
-  77.98% {
-    opacity: 1;
-  }
-  78% {
-    opacity: 0.7;
-  }
-  78.8% {
-    opacity: 0.7;
-  }
-  78.82% {
-    opacity: 1;
-  }
-  78.98% {
-    opacity: 1;
-  }
-  79% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 1;
-  }
-  80.02% {
-    opacity: 1;
-  }
-  99.98% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-  101% {
-    opacity: 1;
-  }
-  101.02% {
-    opacity: 1;
-  }
-} */
-
-/* Media  */
+/* ------------------------------- Media -----------------------------  */
 
 @media only screen and (min-width: 1700px) {
-   .laptop {
-  top: 41%;
-  left: 20%;
-  } 
+  .cartoonProfPic {
+    top: 41%;
+    left: 20%;
+  }
 }
 
-@media screen and (min-device-width: 1301px) and (max-device-width: 1699px) {
-  .laptop {
-    top: 39%;
-  left: 16%;
+@media screen and (max-width: 1699px) {
+  .cartoonProfPic {
+    top: 40%;
+    left: 15%;
   }
-
-
 }
 
 @media only screen and (max-width: 1300px) {
-  .laptop {
-    top: 40%;
+  .cartoonProfPic {
+    top: 43%;
     left: 9%;
   }
 
@@ -921,21 +393,24 @@ nav ul li .last {
     width: 100%;
   }
 
- 
+  .landingText h2 {
+    font-size: 2.85em;
+  }
 }
 
-@media only screen and (max-width: 900px) {
- .laptop {
-  max-width: 35%;
-  left: 2%;
-  } 
-
-  .aboutDivBorder {
-    padding: 2em 1em 1em 1em;
+@media only screen and (max-width: 1000px) {
+  .cartoonProfPic {
+    top: 40%;
+    max-width: 35%;
+    left: 2%;
   }
 
   .landingText h2 {
     font-size: 2.2em;
+  }
+
+  .aboutDivBorder {
+    padding: 2em 1em 1em 1em;
   }
 
   nav .navbar-brand,
@@ -983,10 +458,10 @@ nav ul li .last {
     padding: 0.3em 1em;
   }
 
-  .laptop {
-    top: 88%;
-    left: 23%;
-    max-width: 54%;
+  .cartoonProfPic {
+    top: 87%;
+    left: 24%;
+    max-width: 52%;
   }
 
   .landingText h2 {
@@ -1015,16 +490,16 @@ nav ul li .last {
     margin: 6em 0 2.5em 0;
   }
 
-  .workRow h2 {
+  .workRow h3 {
     margin: 1.5em 0 2em 0;
   }
 
-  .workRow h2,
-  .aboutUs h2 {
+  .workRow h3,
+  .aboutUs h3 {
     font-size: 2.2em;
   }
 
-  .aboutUs h2 {
+  .aboutUs h3 {
     margin: -0.5em 0 2.5em 0;
   }
 
@@ -1091,7 +566,7 @@ nav ul li .last {
     width: 100%;
     background-image: -webkit-linear-gradient(
       280deg,
-      #fff 50%,
+      #fff 55%,
       rgba(109, 27, 216, 0.5) 24.9%
     );
     height: 45%;
@@ -1124,22 +599,21 @@ nav ul li .last {
 }
 
 @media screen and (min-device-width: 550px) and (max-device-width: 767px) {
-  .laptop {
+  .cartoonProfPic {
     top: 78%;
     left: 25%;
   }
 }
 
 @media screen and (min-device-width: 440px) and (max-device-width: 549px) {
-  .laptop {
-    top: 84%;
-    left: 26%;
-    max-width: 48%;
+  .cartoonProfPic {
+    top: 85%;
+    left: 27%;
+    max-width: 46%;
   }
 }
 
 @media only screen and (max-width: 321px) {
-
   .landingText h2 {
     font-size: 1.5em;
     font-weight: 700;
@@ -1147,12 +621,12 @@ nav ul li .last {
     margin-top: 1.2em;
   }
 
-  .workRow h2 {
+  .workRow h3 {
     margin: 1em 0 2em 0;
   }
 
-  .workRow h2,
-  .aboutUs h2 {
+  .workRow h3,
+  .aboutUs h3 {
     font-size: 2em;
   }
 
