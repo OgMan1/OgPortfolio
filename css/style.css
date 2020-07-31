@@ -401,6 +401,7 @@ nav ul li .last {
 
   .landingText h2 {
     font-size: 2.85em;
+    padding: 0 0.5em 1.2em;
   }
 }
 
@@ -476,13 +477,14 @@ nav ul li .last {
   }
 
   .cartoonProfPic {
-    top: 87%;
+    top: 88%;
     left: 24%;
     max-width: 52%;
   }
 
   .landingText h2 {
     font-size: 1.7em;
+    padding: 0 0.5em 1em;
   }
 
   .landingText p {
@@ -531,7 +533,6 @@ nav ul li .last {
 
   .cardRow h4 {
     font-size: 1.7em;
-    margin: 1.7em 0;
   }
 
   .cardRow ul {
@@ -634,7 +635,7 @@ nav ul li .last {
   .landingText h2 {
     font-size: 1.5em;
     font-weight: 700;
-    padding-bottom: 1em;
+    padding: 0 0 1em 0;
     margin-top: 1.2em;
   }
 
