@@ -162,7 +162,8 @@ nav ul li .last {
 .landingText h2 {
   font-size: 3.1em;
   font-weight: 700;
-  padding-bottom: 1.2em;
+  padding: 0 0.5em 1.2em;
+
   margin-top: 2em;
 }
 
@@ -401,7 +402,6 @@ nav ul li .last {
 
   .landingText h2 {
     font-size: 2.85em;
-    padding: 0 0.5em 1.2em;
   }
 }
 
