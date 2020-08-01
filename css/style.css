@@ -374,10 +374,21 @@ nav ul li .last {
   }
 }
 
-@media screen and (max-width: 1699px) {
+@media screen and (max-width: 1709px) {
   .cartoonProfPic {
     top: 40%;
     left: 15%;
+  }
+}
+
+@media screen and (max-width: 1541px) {
+  .cartoonProfPic {
+    top: 37%;
+    left: 15%;
+  }
+
+  .landingText h2 {
+    padding: 0 0.5em 1em;
   }
 }
 
@@ -385,6 +396,10 @@ nav ul li .last {
   .cartoonProfPic {
     top: 43%;
     left: 9%;
+  }
+
+  .landingText h2 {
+    padding: 0 0.5em 1.2em;
   }
 
   .cardRow ul {
