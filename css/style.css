@@ -375,18 +375,28 @@ nav ul li .last {
 
 .bgDark {
   background-color: rgba(12, 12, 12, 0.4);
-  /* height: 100vh; */
 }
 
 .landingPage2 {
   background-color: rgba(46, 44, 44, 0.95);
   color: whitesmoke;
-  padding: 2em;
+  padding: 3em;
   border-radius: 10px;
   line-height: 1.6em;
 }
 
+.landingPage2 .thx {
+  font-size: 2.5em;
+}
+
+.landingPage2 p {
+  font-size: 1.8em;
+  padding: 0.5em 0;
+  line-height: 1.2em;
+}
+
 .landingPage2 a {
+  font-size: 1.35em;
   color: orangered;
 }
 
@@ -649,6 +659,10 @@ nav ul li .last {
 
   label {
     margin-top: 0.4em;
+  }
+
+  .landingPage2 {
+    padding: 1em;
   }
 }
 
