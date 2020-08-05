@@ -365,6 +365,31 @@ nav ul li .last {
   margin-top: 3em;
 }
 
+.bgCode {
+  background-image: url("../images/mat2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bgDark {
+  background-color: rgba(12, 12, 12, 0.4);
+  /* height: 100vh; */
+}
+
+.landingPage2 {
+  background-color: rgba(46, 44, 44, 0.95);
+  color: whitesmoke;
+  padding: 2em;
+  border-radius: 10px;
+  line-height: 1.6em;
+}
+
+.landingPage2 a {
+  color: orangered;
+}
+
 /* ------------------------------- Media -----------------------------  */
 
 @media only screen and (min-width: 1700px) {
