@@ -378,15 +378,15 @@ nav ul li .last {
 }
 
 .landingPage2 {
-  background-color: rgba(46, 44, 44, 0.95);
-  color: whitesmoke;
+  background-color: rgba(34, 34, 34, 0.96);
+  color: white;
   padding: 3em;
   border-radius: 10px;
   line-height: 1.6em;
 }
 
 .landingPage2 .thx {
-  font-size: 2.5em;
+  font-size: 2.6em;
 }
 
 .landingPage2 p {
@@ -700,5 +700,17 @@ nav ul li .last {
 
   .project {
     font-size: 1em;
+  }
+
+  .landingPage2 .thx {
+    font-size: 2em;
+  }
+
+  .landingPage2 p {
+    font-size: 1.4em;
+  }
+
+  .landingPage2 a {
+    font-size: 1.15em;
   }
 }
