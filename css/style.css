@@ -71,8 +71,8 @@ nav ul li .last {
 .dot:before {
   position: absolute;
   content: "";
-  height: 0.2em;
-  width: 0.2em;
+  height: 0.17em;
+  width: 0.17em;
   bottom: 0.1em;
   right: -8px;
   z-index: 2;
