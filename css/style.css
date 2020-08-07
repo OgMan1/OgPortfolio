@@ -237,8 +237,8 @@ nav ul li .last {
 }
 
 .aboutDivBorder {
-  border-left: 0.25em solid lightgray;
-  border-right: 0.25em solid lightgray;
+  border-left: 0.2em solid lightgray;
+  border-right: 0.2em solid lightgray;
   padding: 2em 3em;
   margin: 0 -1.5em;
   height: 100%;
@@ -609,8 +609,8 @@ nav ul li .last {
   }
 
   .aboutDivBorder {
-    border-top: 0.25em solid lightgray;
-    border-bottom: 0.25em solid lightgray;
+    border-top: 0.2em solid lightgray;
+    border-bottom: 0.2em solid lightgray;
     border-left: none;
     border-right: none;
     padding: 2em 1em 0 1em;
