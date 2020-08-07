@@ -668,6 +668,10 @@ nav ul li .last {
   .landingPage2 {
     padding: 1em;
   }
+
+  .dot:before {
+    right: -7px;
+  }
 }
 
 @media screen and (min-device-width: 550px) and (max-device-width: 767px) {
