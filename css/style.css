@@ -187,15 +187,13 @@ nav ul li .last {
 }
 
 .btnForm {
-  background-color: rgba(109, 27, 216, 0.95);
-  color: white;
   margin-top: 0.5em;
   width: 100%;
 }
 
 .btnForm:hover {
-  background-color: yellow;
-  color: rgb(62, 18, 119);
+  background-color: rgb(62, 18, 119);
+  color: yellow;
 }
 
 .aboutUs {
