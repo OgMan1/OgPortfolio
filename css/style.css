@@ -108,6 +108,11 @@ nav ul li .last {
   font-size: 1.9em;
 }
 
+.cardRow h4 a {
+  color: rgb(62, 18, 119);
+  text-decoration: none;
+}
+
 .cardRow ul {
   font-weight: 600;
   font-size: 1.15em;
