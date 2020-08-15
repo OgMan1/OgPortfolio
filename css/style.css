@@ -196,6 +196,18 @@ nav ul li .last {
   color: yellow;
 }
 
+.btnAsk {
+  background-color: rgba(109, 27, 216, 0.95);
+  color: white;
+  margin-top: 0.5em;
+  width: 100%;
+  font-size: 1em;
+}
+.btnAsk:hover {
+  background-color: yellow;
+  color: rgb(62, 18, 119);
+}
+
 .aboutUs {
   text-align: center;
   line-height: 1.8em;
@@ -260,7 +272,7 @@ nav ul li .last {
   top: 0;
   left: 0;
   width: 50%;
-  background: rgba(109, 27, 216, 0.4);
+  background: rgba(109, 27, 216, 0.55);
   height: 100%;
   z-index: -1;
 }
@@ -290,7 +302,7 @@ nav ul li .last {
   background-image: -webkit-linear-gradient(
     280deg,
     #fff 50%,
-    rgba(109, 27, 216, 0.4) 24.9%
+    rgba(109, 27, 216, 0.75) 24.9%
   );
   height: 55%;
   z-index: -2;
@@ -316,7 +328,7 @@ nav ul li .last {
 .btnBottom {
   padding: 0.5em 1.25em;
   border-radius: 0;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
   width: 40%;
 }
@@ -633,7 +645,7 @@ nav ul li .last {
     background-image: -webkit-linear-gradient(
       280deg,
       #fff 50%,
-      rgba(109, 27, 216, 0.4) 24.9%
+      rgba(109, 27, 216, 0.5) 24.9%
     );
     height: 45%;
     z-index: -2;
