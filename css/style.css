@@ -108,9 +108,17 @@ nav ul li .last {
   font-size: 1.9em;
 }
 
-.cardRow h4 a {
-  color: rgb(62, 18, 119);
+.cardRow a {
   text-decoration: none;
+}
+
+.cardRow a h4 {
+  color: rgb(62, 18, 119);
+}
+
+.cardRow a h4:hover {
+  transition: 0.25s linear;
+  color: rgb(109, 27, 216);
 }
 
 .cardRow ul {
@@ -159,9 +167,9 @@ nav ul li .last {
 .imgSecondRow:hover {
   transform: scale(1.01);
   transition: 0.3s linear;
-  -webkit-box-shadow: 6px 6px 7px -1px rgba(109, 27, 216, 0.75);
-  -moz-box-shadow: 6px 6px 7px -1px rgba(109, 27, 216, 0.75);
-  box-shadow: 6px 6px 7px -1px rgba(109, 27, 216, 0.75);
+  -webkit-box-shadow: 5px 5px 7px -1px rgba(109, 27, 216, 0.75);
+  -moz-box-shadow: 5px 5px 7px -1px rgba(109, 27, 216, 0.75);
+  box-shadow: 5px 5px 7px -1px rgba(109, 27, 216, 0.75);
 }
 
 .landingText h2 {
@@ -277,21 +285,15 @@ nav ul li .last {
   top: 0;
   left: 0;
   width: 50%;
-  background: rgba(109, 27, 216, 0.55);
+  background: rgba(109, 27, 216, 0.45);
   height: 100%;
   z-index: -1;
 }
 
 #ogSpan {
-  /* color: rgb(109, 27, 216); */
   color: orangered;
   text-decoration: none;
 }
-
-/* #ogSpan:hover {
-  color: orangered;
-  transition: 0.35s ease;
-} */
 
 .form {
   padding: 4em 0;
@@ -650,7 +652,7 @@ nav ul li .last {
     background-image: -webkit-linear-gradient(
       280deg,
       #fff 50%,
-      rgba(109, 27, 216, 0.5) 24.9%
+      rgba(109, 27, 216, 0.45) 24.9%
     );
     height: 45%;
     z-index: -2;
