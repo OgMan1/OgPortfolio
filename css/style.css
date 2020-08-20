@@ -167,7 +167,7 @@ nav ul li .last {
 }
 
 .imgSecondRow:hover {
-  transform: scale(1.01);
+  transform: scale(1.007);
   transition: 0.3s linear;
   -webkit-box-shadow: 5px 5px 7px -1px rgba(121, 121, 121, 0.8);
   -moz-box-shadow: 5px 5px 7px -1px rgba(121, 121, 121, 0.8);
@@ -217,8 +217,7 @@ nav ul li .last {
   font-size: 1em;
 }
 .btnAsk:hover {
-  background-color: yellow;
-  color: rgb(62, 18, 119);
+  color: yellow;
 }
 
 .aboutUs {
@@ -252,8 +251,6 @@ nav ul li .last {
 }
 
 .iRow p {
-  /* border-bottom: 0.1em solid rgb(109, 27, 216); */
-  /* width: 80%; */
   margin: 0 auto;
   font-size: 1.15em;
   position: relative;
@@ -268,7 +265,7 @@ nav ul li .last {
 }
 
 .aboutTech {
-  padding: 2em 0;
+  padding: 2em 1em;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -508,7 +505,7 @@ nav ul li .last {
   }
 
   .aboutDivBorder {
-    padding: 2em 1em 1em 1em;
+    padding: 2em 1em;
   }
 
   nav .navbar-brand,
