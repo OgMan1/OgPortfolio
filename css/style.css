@@ -200,7 +200,6 @@ nav ul li .last {
 }
 
 .btnForm {
-  margin-top: 0.5em;
   width: 100%;
 }
 
@@ -236,7 +235,7 @@ nav ul li .last {
 
 .aboutDivPara {
   text-align: left;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .lastDivPara {
@@ -252,10 +251,10 @@ nav ul li .last {
 }
 
 .iRow p {
-  border-bottom: 0.1em solid rgb(109, 27, 216);
-  width: 80%;
+  /* border-bottom: 0.1em solid rgb(109, 27, 216); */
+  /* width: 80%; */
   margin: 0 auto;
-  font-size: 1.1em;
+  font-size: 1.15em;
   position: relative;
 }
 
@@ -268,7 +267,12 @@ nav ul li .last {
 }
 
 .aboutTech {
-  padding: 2em;
+  padding: 2em 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutDiv h4 {
@@ -285,7 +289,7 @@ nav ul li .last {
   top: 0;
   left: 0;
   width: 50%;
-  background: rgba(109, 27, 216, 0.45);
+  background: rgba(109, 27, 216, 0.5);
   height: 100%;
   z-index: -1;
 }
@@ -309,7 +313,7 @@ nav ul li .last {
   background-image: -webkit-linear-gradient(
     280deg,
     #fff 50%,
-    rgba(109, 27, 216, 0.75) 24.9%
+    rgba(109, 27, 216, 0.8) 50.3%
   );
   height: 55%;
   z-index: -2;
@@ -519,8 +523,20 @@ nav ul li .last {
     padding: 0.15em;
   }
 
+  nav .navbar-nav {
+    margin: 0;
+  }
+
   button.navbar-toggler.navText {
-    margin: 0.15em 0.5em;
+    margin: 0.15em 0;
+  }
+
+  .navbar-brand {
+    font-size: 1.15em;
+  }
+
+  .navbar-toggler {
+    font-size: 1.1em;
   }
 
   .navbar {
@@ -534,7 +550,6 @@ nav ul li .last {
   nav ul li a {
     background-color: rgba(109, 27, 216, 0.99);
     position: relative;
-    margin-right: 0;
     padding: 0.1em;
     margin: 0.5em 0;
   }
@@ -625,24 +640,6 @@ nav ul li .last {
     margin: 3em 0;
   }
 
-  .aboutDivBorder {
-    border-top: 0.2em solid lightgray;
-    border-bottom: 0.2em solid lightgray;
-    border-left: none;
-    border-right: none;
-    padding: 2em 1em 0 1em;
-    margin-bottom: 0;
-  }
-
-  .aboutTech {
-    padding-top: 3em;
-  }
-
-  .page-footer {
-    padding: 0.1em 0.2em;
-    margin: 0 0.2em;
-  }
-
   .aboutBack:before {
     content: "";
     position: absolute;
@@ -652,10 +649,29 @@ nav ul li .last {
     background-image: -webkit-linear-gradient(
       280deg,
       #fff 50%,
-      rgba(109, 27, 216, 0.45) 24.9%
+      rgba(109, 27, 216, 0.8) 50.3%
     );
-    height: 45%;
+    height: 50%;
     z-index: -2;
+  }
+
+  .aboutDivBorder {
+    border-top: 0.2em solid lightgray;
+    border-bottom: 0.2em solid lightgray;
+    border-left: none;
+    border-right: none;
+    padding: 2em 1.25em 0 1.25em;
+    margin-bottom: 0;
+  }
+
+  .page-footer {
+    padding: 0.1em 0.2em;
+    margin: 0 0.2em;
+  }
+
+  .secondIRowP {
+    color: white;
+    padding-bottom: 3em;
   }
 
   .fa-bars {
@@ -689,6 +705,14 @@ nav ul li .last {
   .dot:before {
     right: -6px;
   }
+
+  .aboutDiv h4 {
+    font-size: 1.85em;
+  }
+
+  .btnForm {
+    margin-top: 0.75em;
+  }
 }
 
 @media screen and (min-device-width: 550px) and (max-device-width: 767px) {
@@ -721,6 +745,10 @@ nav ul li .last {
   .workRow h3,
   .aboutUs h3 {
     font-size: 2em;
+  }
+
+  .iRow p {
+    font-size: 1em;
   }
 
   .project {
