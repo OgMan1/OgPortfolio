@@ -113,12 +113,12 @@ nav ul li .last {
 }
 
 .cardRow a h4 {
-  color: rgb(62, 18, 119);
+  color: rgb(109, 27, 216);
 }
 
 .cardRow a h4:hover {
   transition: 0.25s linear;
-  color: rgb(109, 27, 216);
+  color: rgba(109, 27, 216, 0.75);
 }
 
 .cardRow ul {
@@ -339,7 +339,7 @@ nav ul li .last {
 .btnBottom {
   padding: 0.5em 1.25em;
   border-radius: 0;
-  font-size: 1.3em;
+  font-size: 1.35em;
   font-weight: bold;
   width: 40%;
 }
@@ -660,7 +660,7 @@ nav ul li .last {
     border-bottom: 0.2em solid lightgray;
     border-left: none;
     border-right: none;
-    padding: 2em 1.25em 0 1.25em;
+    padding: 2em 1.15em 0 1.15em;
     margin-bottom: 0;
   }
 
@@ -671,7 +671,7 @@ nav ul li .last {
 
   .secondIRowP {
     color: white;
-    padding-bottom: 3em;
+    padding-bottom: 2.5em;
   }
 
   .fa-bars {
@@ -687,7 +687,7 @@ nav ul li .last {
   }
 
   .form {
-    padding: 3em 0;
+    padding: 2.5em 0 3em;
   }
 
   .form p {
