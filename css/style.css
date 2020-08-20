@@ -551,10 +551,18 @@ nav ul li .last {
   }
 
   nav ul li a {
-    background-color: rgba(109, 27, 216, 0.99);
+    background-color: yellow;
+    color: rgb(62, 18, 119);
     position: relative;
     padding: 0.1em;
     margin: 0.5em 0;
+  }
+
+  nav ul li a:hover,
+  nav ul li a:active {
+    color: rgb(62, 18, 119);
+    transition: 0.35s ease;
+    border-left: 0.5em solid rgb(109, 27, 216);
   }
 
   .navbar-brand .logoPic {
