@@ -118,9 +118,9 @@ nav ul li .last {
 
 .cardRow a h4:hover {
   color: rgb(109, 27, 216);
-  padding-left: 0.5em;
-  transition: 0.35s ease;
-  border-left: 0.12em solid rgba(109, 27, 216, 0.75);
+  padding-left: 0.7em;
+  transition: 0.4s ease;
+  border-left: 0.13em solid rgba(109, 27, 216, 0.75);
 }
 
 .cardRow ul {
