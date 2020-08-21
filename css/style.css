@@ -10,11 +10,11 @@ html {
 
 nav .navbar-brand,
 nav .navbar-nav {
-  margin: 0.15em 2.5em;
+  margin: 0.05em 2.5em;
 }
 
 .navbar-brand .logoPic {
-  height: 3em;
+  height: 2.7em;
 }
 
 nav .navbar-nav,
@@ -29,7 +29,8 @@ nav ul li a {
 }
 
 nav ul li a:hover,
-nav ul li a:active {
+nav ul li a:active,
+.active {
   color: rgb(255, 255, 255);
 }
 
@@ -118,9 +119,9 @@ nav ul li .last {
 
 .cardRow a h4:hover {
   color: rgb(62, 18, 119);
-  padding-left: 0.7em;
+  padding-left: 1em;
   transition: 0.4s ease;
-  border-left: 0.13em solid rgba(109, 27, 216, 0.75);
+  border-left: 1em solid rgba(109, 27, 216, 0.75);
 }
 
 .cardRow ul {
@@ -317,7 +318,7 @@ nav ul li .last {
     #fff 50%,
     rgba(109, 27, 216, 0.8) 50.3%
   );
-  height: 55%;
+  height: 60%;
   z-index: -2;
 }
 
@@ -564,6 +565,10 @@ nav ul li .last {
     border-left: 0.5em solid rgb(109, 27, 216);
   }
 
+  .active {
+    color: red;
+  }
+
   .navbar-brand .logoPic {
     height: 2.5em;
   }
@@ -661,7 +666,7 @@ nav ul li .last {
       #fff 50%,
       rgba(109, 27, 216, 0.8) 50.3%
     );
-    height: 53%;
+    height: 45%;
     z-index: -2;
   }
 
