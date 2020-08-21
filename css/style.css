@@ -340,7 +340,7 @@ nav ul li .last {
 }
 
 .btnBottom {
-  padding: 0.5em 1.25em;
+  padding: 0.3em 1.25em;
   border-radius: 0;
   font-size: 1.35em;
   font-weight: bold;
@@ -666,7 +666,7 @@ nav ul li .last {
       #fff 50%,
       rgba(109, 27, 216, 0.8) 50.3%
     );
-    height: 45%;
+    height: 47%;
     z-index: -2;
   }
 
@@ -727,6 +727,13 @@ nav ul li .last {
 
   .btnForm {
     margin-top: 0.75em;
+  }
+
+  .btnBottom {
+    padding: 0.25em;
+    border-radius: 0;
+    font-size: 1.15em;
+    font-weight: bold;
   }
 }
 
