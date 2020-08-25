@@ -114,11 +114,11 @@ nav ul li .last {
 }
 
 .cardRow a h4 {
-  color: rgb(109, 27, 216);
+  color: rgba(109, 27, 216, 0.95);
 }
 
 .cardRow a h4:hover {
-  color: rgb(62, 18, 119);
+  color: rgb(109, 27, 216);
   padding-left: 0.75em;
   transition: 0.4s ease;
   border-left: 0.5em solid rgba(109, 27, 216, 0.75);
@@ -331,7 +331,7 @@ nav ul li .last {
 
 .form p {
   margin-bottom: 2.5em;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -588,11 +588,12 @@ nav ul li .last {
   nav ul li a:active {
     color: rgb(62, 18, 119);
     transition: 0.35s ease;
-    border-left: 0.5em solid rgb(109, 27, 216);
+    border-left: 0.5em solid #C322C7;
   }
 
   .active {
-    color: red;
+    border-left: 0.5em solid #C322C7;
+    color: rgb(62, 18, 119);
   }
 
   .navbar-brand .logoPic {
