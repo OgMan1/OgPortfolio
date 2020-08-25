@@ -770,6 +770,10 @@ nav ul li .last {
     margin-top: 0.75em;
   }
 
+  .btnAsk {
+    padding: 0.4em;
+  }
+
   .btnBottom {
     padding: 0.25em;
     border-radius: 0;
