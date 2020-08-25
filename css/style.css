@@ -605,11 +605,11 @@ nav ul li .last {
   nav ul li a:active {
     color: rgb(62, 18, 119);
     transition: 0.35s ease;
-    border-left: 0.5em solid #C322C7;
+    border-left: 0.5em solid red;
   }
 
   .active {
-    border-left: 0.5em solid #C322C7;
+    border-left: 0.5em solid red;
     color: rgb(62, 18, 119);
   }
 
