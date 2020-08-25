@@ -69,6 +69,14 @@ nav ul li .last {
   position: relative;
 }
 
+.landingText h3 {
+  font-size: 2.1rem;
+}
+
+.landingText p {
+  font-size: 1.1em;
+}
+
 .dot:before {
   position: absolute;
   content: "";
@@ -114,7 +122,7 @@ nav ul li .last {
 }
 
 .cardRow a h4 {
-  color: rgba(109, 27, 216, 0.95);
+  color: rgb(109, 27, 216, 0.95);
 }
 
 .cardRow a h4:hover {
@@ -531,6 +539,15 @@ nav ul li .last {
     font-size: 2.2em;
   }
 
+  .landingText h3 {
+    font-size: 1.9rem;
+  }
+  
+  .landingText p {
+    font-size: 1.1em;
+  }
+  
+
   .aboutDivBorder {
     padding: 2em 1em;
   }
@@ -601,7 +618,7 @@ nav ul li .last {
   }
 
   .navbar-nav .nav-link {
-    padding: 0.3em 1em;
+    padding: 0.15em 1em;
   }
 
   .cartoonProfPic {
@@ -611,20 +628,17 @@ nav ul li .last {
   }
 
   .landingText h2 {
-    font-size: 1.7em;
-    padding: 0 0 1.1em 0;
+    font-size: 1.75em;
+    padding: 0.5em 0 1.75em 0;
   }
 
   .landingText p {
-    font-size: 0.9em;
+    font-size: 0.95em;
+    line-height: 1.3em;
   }
 
   .landingText h3 {
-    font-size: 1.45rem;
-  }
-
-  .landingText p {
-    line-height: 1.3em;
+    font-size: 1.6rem;
   }
 
   .landingText .btnContact {
