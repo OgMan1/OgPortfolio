@@ -278,11 +278,15 @@ nav ul li .last {
   z-index: -2;
 }
 .form h3,
-.form h5,
+.form .h5,
 .form p {
   text-align: center;
   margin-bottom: 1em;
 }
+.form .h5 {
+  font-weight: 500;
+}
+
 .form p {
   margin-bottom: 2.5em;
   font-size: 1.5em;
