@@ -169,6 +169,7 @@ nav ul li .last {
   color: #3e1277;
   margin-top: 0.5em;
 }
+
 .btnForm:hover,
 .landingText .btnContact:hover {
   transition: 0.35s ease-in;
@@ -600,9 +601,7 @@ nav ul li .last {
     color: #fff;
     padding-bottom: 2.5em;
   }
-  .fa-bars {
-    color: #ff0;
-  }
+
   .formName {
     width: 100%;
   }
