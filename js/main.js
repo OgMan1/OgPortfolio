@@ -20,8 +20,8 @@ $(document).ready(function () {
   });
 
   gsap.from(".btnContact", {
-    duration: 1,
-    y: "200%",
+    duration: 0.7,
+    y: "250%",
     rotation: 30,
     ease: "bounce.out",
   });
