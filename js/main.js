@@ -1,3 +1,5 @@
+"use strict";
+
 $(document).ready(function () {
   $(window).scroll(function () {
     // check if scroll event happened
@@ -15,5 +17,12 @@ $(document).ready(function () {
         borderBottom: "0px solid black",
       });
     }
+  });
+
+  gsap.from(".btnContact", {
+    duration: 1,
+    y: "200%",
+    rotation: 30,
+    ease: "bounce.out",
   });
 });
